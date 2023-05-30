@@ -1,0 +1,11 @@
+*{
+    margin: 0;padding: 0;
+    background-color: #2d2c2c;
+}
+.head{
+    color: antiquewhite;
+}
+.data{
+    font-size: large;
+    color: azure;
+}
