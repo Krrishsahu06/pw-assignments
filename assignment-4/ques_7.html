@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 7</title>
+    <style>
+        body {
+            position: relative;
+            text-align: center;
+        }
+
+        .card {
+            border: 1px solid black;
+            width: 200px;
+            height: 250px;
+            position: absolute;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+
+        .card-1 {
+            width: 200px;
+            height: 250px;
+            background-color: rgb(101, 101, 211);
+        }
+
+        .card-2 {
+            background-color: rgb(143, 211, 101);
+            margin-top: 40px;
+            margin-left: 40px;
+
+        }
+
+        .card-3 {
+            background-color: rgb(101, 205, 211);
+            margin-top: 80px;
+            margin-left: 80px;
+        }
+
+        .card-1:hover {
+            z-index: 22;
+        }
+
+        .card-2:hover {
+            z-index: 22;
+        }
+
+        .card-3:hover {
+            z-index: 22;
+        }
+
+        img {
+            width: 150px;
+            height: 150px;
+            background-color: #2a2a2a;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Hover to Unveil the card</h1>
+    <div>
+        <section class=" card card-1">
+            <h3>Card-1</h3>
+            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png" alt="">
+        </section>
+        <section class=" card card-2">
+            <h3>Card-2</h3>
+            <img src="https://www.bitgab.com/uploads/1597796080-pikachu-1597796080.png" alt="">
+        </section>
+        <section class=" card card-3">
+            <h3>Card-3</h3>
+            <img src="https://w7.pngwing.com/pngs/122/954/png-transparent-pokemon-x-and-y-blastoise-charizard-charmander-others-mammal-carnivoran-vertebrate.png"
+                alt="">
+        </section>
+    </div>
+</body>
+
+</html>
