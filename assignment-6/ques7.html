@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 7</title>
+    <style>
+        .gallery{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(3,250px);
+            gap: 10px;
+            padding: 20px;
+            border: 2px solid black;
+            border-radius: 20px;
+        }
+        .photo-1{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+        .photo-2{
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+        .photo-3{
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+        .photo-4{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+        .photo-5{
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 3;
+            grid-row-end: 4;
+        }
+        .photo-6{
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+        img{
+            width: 100%;
+            border-radius: 20px;
+            height: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <div class="photo-1">
+            <img src="https://images.unsplash.com/photo-1612441804231-77a36b284856?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bW91bnRhaW4lMjBsYW5kc2NhcGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80" alt="">
+        </div>
+        <div class="photo-2">
+            <img src="https://images.pexels.com/photos/1450082/pexels-photo-1450082.jpeg?cs=srgb&dl=pexels-marlon-martinez-1450082.jpg&fm=jpg" alt="">
+        </div>
+        <div class="photo-3">
+            <img src="https://i.natgeofe.com/n/2a832501-483e-422f-985c-0e93757b7d84/6.jpg?w=1272&h=954" alt="">
+        </div>
+        <div class="photo-4">
+            <img src="https://expertphotography.b-cdn.net/wp-content/uploads/2022/05/Landscape-Photography-Zach-Doehler.jpg" alt="">
+        </div>
+        <div class="photo-5">
+            <img src="https://cdn.pixabay.com/photo/2012/08/27/14/19/mountains-55067_640.png" alt="phtos">
+        </div>
+        <div class="photo-6">
+            <img src="https://images.pexels.com/photos/2613946/pexels-photo-2613946.jpeg?cs=srgb&dl=pexels-trace-hudson-2613946.jpg&fm=jpg" alt="photo">
+        </div>
+    </div>
+</body>
+</html>

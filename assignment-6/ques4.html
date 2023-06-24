@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 4</title>
+    <style>
+        body{
+            margin: auto;
+            max-width: 1200px;
+            border: 2px solid black;
+
+        }
+        nav{
+            max-width: 1200px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            align-items: center;
+        }
+        nav a{
+            text-decoration: none;
+            padding-right: 50px;
+            color: black;
+        }
+        nav button{
+            margin-left: 60%;
+            padding: 5px 0;
+            border-radius: 5px;
+            background-color: rgb(13, 204, 29);
+            border: none;
+            margin-right: 5px;
+        }
+        nav img{
+            width: 50px;
+
+        }
+        .hero-container {
+            max-width: 1200px;
+            height: 70vh;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            padding: 10px;
+            align-items: center;
+            gap: 20px;
+            font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+                "Lucida Sans", Arial, sans-serif;
+        }
+
+        .text-section {
+            padding: 0 50px;
+        }
+
+        .text-section h1 {
+            font-size: 30px;
+        }
+
+        .text-section p {
+            font-size: 15px;
+            color: rgb(57, 56, 56);
+        }
+
+        .text-section button {
+            background-color: black;
+            color: white;
+            padding: 8px 25px;
+            border: none;
+            font-weight: bold;
+            margin-top: 30px;
+        }
+
+        .img-section {
+            background-color: yellow;
+            height: 100%;
+            /* max-height: 90vh; */
+        }
+
+        .img-section img {
+            width: 80%;
+            height: 100%;
+            /* border: 2px solid black; */
+        }
+        .swiggy{
+            margin:10px;
+            max-width: 1200px;
+            background-color: rgb(42, 25, 3);
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            align-items: center;
+            font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+        }
+
+        .swiggy-sec{
+            text-align: center;
+            margin: 10px 70px;
+            width: 200px;
+        }
+        .swiggy-sec>img{
+            width: 130px;
+        } 
+        .swiggy-sec>img{
+            width: 130px;
+        }
+        .swiggy-sec>img{
+            width: 150px;
+        }
+        .swiggy-sec>h3{
+            color: white;
+        }
+        .swiggy-sec>p{
+            color: rgb(114, 60, 27);
+        }
+        .activites{
+            max-width: 1200px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            align-items: center;
+            font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+          /* justify-items: space-around; */
+          column-gap: 50px;
+          padding: 30px 0;
+        }
+        .activites .sub-sec{
+            margin: 0px 30px;
+            text-align: center;
+            margin-bottom: 0px;
+            width: 10px 0%;
+            overflow: hidden;
+            border-radius: 25px 25px 0 0;
+        }
+        .activites .sub-sec>img{
+            text-align: center;
+            width: 100%;
+            height: 280px;
+            margin-top: -50px;
+        }
+        .activites .text-section{
+            position: relative;
+            background-color: #fff;
+            margin-top: 0px;
+            top: -50px;
+            /* text-align: left; */
+            border: 1px solid black;
+            border-radius: 0px 0px 25px 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <img src="https://png.pngtree.com/png-clipart/20230401/original/pngtree-healthy-food-logo-design-with-chopstick-png-image_9016805.png"
+            alt="Logo" />
+        <div>
+            <a href="#">Home</a><a href="#">About</a><a href="#">Contact</a>
+        </div>
+        <button>
+            login
+        </button>
+    </nav>
+    <div class="hero-container">
+        <section class="text-section">
+            <h1>Healthy Food</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat consectetur, autem optio eligendi, error
+                tempore harum doloremque amet debitis dignissimos, animi quasi fugit temporibus officiis eos incidunt
+                molestias nam blanditiis sed quae. Molestias, quos repellat, molestiae temporibus officiis laudantium
+                illum quas quod aperiam repellendus aut dolor harum, rem aliquid. Placeat.</p>
+            <button>Read More</button>
+        </section>
+        <section class="img-section">
+            <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aGVhbHRoeSUyMGZvb2R8ZW58MHx8MHx8fDA%3D&w=1000&q=80"
+                alt="Healthy food">
+        </section>
+    </div>
+    <div class="swiggy">
+        <section class="swiggy-sec">
+            <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_210,h_398/4x_-_No_min_order_x0bxuf" alt="">
+            <h3>No Minimum order</h3>
+            <p>Order in for yourself or the group,with no restrictions on order value</p>
+        </section>
+        <section class="swiggy-sec">
+            <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_224,h_412/4x_Live_order_zzotwy" alt="">
+            <h3>Live Order Tracking</h3>
+            <p>Know where your order is at all the times,from the restaurant to your doorstep</p>
+        </section>
+        <section class="swiggy-sec">
+            <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_248,h_376/4x_-_Super_fast_delivery_awv7sn" alt="">
+            <h3>Lightning-Fast Delivery </h3>
+            <p>Experience Swiggy's superfast delivery for food delivered fresh & on time</p>
+        </section>
+    </div>
+    <div class="activites">
+        <section class="sub-sec">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Indian-Food-wikicont.jpg" alt="">
+            <section class="text-section">
+                <h1>Order Online</h1>
+                <p>Stay home and order to your Door-step</p>
+            </section>
+        </section>
+        <section class="sub-sec">
+            <img src="http://www.enclavesuites.com/wp-content/uploads/pub_2017_07_15-1024x768.jpg" alt="">
+            <section class="text-section">
+                <h1>On Site Dinnig</h1>
+                <p>View the city's favourite dining venues</p>
+            </section>
+        </section>
+        <section class="sub-sec">
+            <img src="https://www.discotech.me/wp-content/uploads/2018/05/ministryofsound.jpg" alt="">
+            <section class="text-section">
+                <h1>Nightlife & Clubs</h1>
+                <p>Explore the city's top nightlife outlets & Book Tables</p>
+            </section>
+        </section>
+    </div>
+
+</body>
+
+</html>
