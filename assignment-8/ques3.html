@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 3</title>
+    <style>
+        .card{
+            width: 300px;
+            margin: 200px auto;
+            padding: 20px;
+            border: 2px solid black;
+            border-radius: 15px;
+            cursor: pointer;
+            background-image: linear-gradient(to right,#00d5ff,rgb(37, 67, 237));
+            transition: all 0.2s ease-in;
+        }
+        .card:hover{
+            transform: rotate(-45deg);
+        }
+        .head{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .head h1{
+            font-size: 20px;
+        }
+        .head p{
+            color: white;
+        }
+        .body ul{
+            padding-left: 60px;
+        }
+        .body h1{
+            font-size: 28px;
+        }
+        .foot  button{
+            background-image: linear-gradient(to right,cyan,green);
+            border: none;
+            width: 300px;
+            height: 35px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="head">
+            <h1>#01</h1>
+            <p>Created On: 01/01/2023</p>
+        </div>
+        <div class="body">
+            <h1>Important dates</h1>
+            <ul>
+                <li>January 26-Republic day</li>
+                <li>
+                    August 15-Independence day
+                </li>
+                <li>October 2-Gandhi jayanti</li>
+                <li>August 29-National sports day</li>
+            </ul>
+        </div>
+        <div class="foot">
+            <button>Mark as Done</button>
+        </div>
+    </div>
+</body>
+</html>
