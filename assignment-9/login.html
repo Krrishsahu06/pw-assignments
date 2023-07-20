@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #d5d4d4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .sec1{
+            background-color: rgb(253, 252, 252);
+            border-radius: 30px;
+            width: 400px;
+            height: 400px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        form{
+            width: 250px;
+        }
+        .login-box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        h1{
+            padding: 30px;
+        }
+        .user-box{
+            position: relative;
+            margin-bottom: 30px;
+        }
+        .user-box input{
+            width: 100%;
+            padding: 10px 0;
+            font-size: 16px;
+            color: #333;
+            border: none;
+            border-bottom: 1px solid black;
+            outline: none;
+            background: transparent;
+            transition: border-color 0.2;
+        }
+        a{
+            display: inline-block;
+            text-decoration: none;
+            /* border: 1px solid white; */
+            width: 100%;
+            text-align: center;
+            padding: 5px 0 5px 0;
+            border-radius: 9px;
+            background-color: rgb(39, 141, 249);
+            color: white;
+        }
+        a:hover{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="sec1">
+        <div class="login-box">
+            <h1>Login</h1>
+            <form >
+                <div class="user-box">
+                    <input type="name" placeholder="User Name">
+                    <!-- <label>User Name</label> -->
+                </div>
+                <div class="user-box">
+                    <input type="password" placeholder="Password">
+                    <!-- <label>Password</label> -->
+                </div>
+                <a href="#">
+                    <span></span>
+                    Submit
+                </a>
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>
